@@ -77,7 +77,8 @@ header a {
   width: 50%;
   position: absolute;
   left: 5%;
-  bottom: 10%;
+  bottom: 20%;
+  text-shadow:
 }
 
 .banner-text p {
@@ -93,11 +94,7 @@ header a {
   font-weight: bold;
 }
 
-
-
-/* sitilizzazione del banner */
-
-
+/* /sitilizzazione del banner */
 /* stile della sezione leadership */
 
 .leadership {
@@ -105,8 +102,6 @@ header a {
   margin-top: 25px;
   margin-bottom: 10px;
 }
-
-
 
 .clearfix ::after {
   clear: both;
@@ -145,13 +140,12 @@ header a {
   object-fit: cover;
   border-radius: 10px;
 }
-
-
 .col-center {
   width: 57%;
   float: left;
   margin: 0 16px;
 }
+
 .col-center img {
   width: 100%;
   height: 200px;
@@ -171,6 +165,7 @@ header a {
   z-index: 0
 
 }
+
 .immagini-opache .overlay {
   width: 100%;
   height: 200px;
@@ -181,8 +176,9 @@ header a {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.2);
 }
+
 .immagini-opache {
   height: 200px;
 }
@@ -197,9 +193,7 @@ header a {
 }
 
 /* stile della sezione leadership */
-
 /* /Sezioni */
-
 /* footer */
 
 footer {
@@ -215,5 +209,4 @@ footer {
   font-size: 20px;
   color: red;
 }
-
 /* /footer */

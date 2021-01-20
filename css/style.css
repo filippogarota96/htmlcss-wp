@@ -4,16 +4,37 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 .container {
   width: 80%;
   margin: auto;
-}
 
+}
+/* stile intestazione e nav */
 header {
   width: 100%;
-
   margin: 25px 0;
 }
+
+header .logo {
+  width: 18%;
+  border-right: 1px solid lightgrey;
+  padding-right: 2%;
+  margin-bottom: 2%;
+}
+
+header img {
+  max-width: 100%;
+}
+header li {
+  display: inline-block;
+  padding: 0 1%;
+  padding: 2% 1%;
+  color: #858585;
+}
+/* /stile intestazione e nav */
 
 /* Sezioni */
 .banner {
